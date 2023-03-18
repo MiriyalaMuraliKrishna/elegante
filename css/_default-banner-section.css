@@ -1,0 +1,6 @@
+.default-banner-main{gap: 169px;}
+.default-banner-text{width: 408px; height: 336px; padding-left: 141px;}
+.default-banner-image{width: calc(100% - 718px)}
+.button{background-color: red; color: white; font-size: 16px; border-radius: 40px; }
+
+

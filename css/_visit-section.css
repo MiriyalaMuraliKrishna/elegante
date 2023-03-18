@@ -1,0 +1,6 @@
+.visit-row{gap: 44px;}
+.visit-list{flex: 0 0 calc(33.33% - 44px); margin-bottom: 140px;}
+.visit-image img{border-radius: 20px;}
+.visit-image{margin-bottom: 28px;}
+.visit-text h4{font-size: 28px;}
+.visit-text p{font-size: 18px;}

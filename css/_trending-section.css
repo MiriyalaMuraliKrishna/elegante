@@ -1,6 +1,6 @@
-.trending-main h2{text-transform:capitalize; font-size: 35px; text-align: center;}
+.trending-main h3{text-transform:capitalize; font-size: 35px; text-align: center;}
 .trending-row{gap: 70px;} 
 .trending-list{width: calc(33.33% - 70px)}
 .trending-text h5{font-size: 24px;}
 .trending-text p{font-size: 18px;}
-
+.trending-main{margin-bottom: 206px;}

@@ -1,0 +1,5 @@
+.category-main h3{font-size: 35px; line-height: 47px; text-transform: uppercase; margin-bottom: 44px;}
+.category-row{gap: 39px;}
+.category-list{width: calc(16% - 39px); margin-bottom: 140px;}
+.category-image img{border-radius: 153px; margin-bottom: 22px;}
+.category-list h5{text-align: center;}

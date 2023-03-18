@@ -1,1 +1,6 @@
-.discover-main{}
+.discover-main h3{text-align: center; font-size: 35px; text-transform: uppercase; margin-bottom: 33px;}
+.discover-nav{text-align: center; gap: 56px;}
+.discover-row{gap: 70px;}
+.discover-list{width: calc(25% - 70px);}
+.discover-image{margin-bottom: 19px;}
+.discover-main{margin-bottom: 160px;}

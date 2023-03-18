@@ -1,0 +1,6 @@
+.offers-row{gap: 70px;}
+.offers-list{width: calc(25% - 70px);}
+.offers-main{margin-bottom: 160px;}
+.offers-image{margin-bottom: 19px;}
+.offers-image img{border-radius: 20px;}
+.offers-main h3{margin-bottom: 51px; text-align: center;}

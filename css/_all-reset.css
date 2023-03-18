@@ -7,7 +7,7 @@ a {color: var(--blue-color); text-decoration: none; transition: all 0.3s ease-in
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--gray-color);}
-h1, h2, h3, h4, h5, h6 {clear: both; margin: 0 0 2px; color: var(--text-color); letter-spacing: 0; text-transform: none;  font-family: 'Quicksand', sans-serif; font-weight: bold;}
+h1, h2, h3, h4, h5, h6 {clear: both; margin: 0 0 2px; color: var(--text-color); letter-spacing: 0; text-transform: none;  font-family: 'Open Sans', sans-serif; font-weight: bold;}
 h1 {font-size: 40px; line-height: 50px; letter-spacing: 0.5px; margin-bottom: 22px; text-transform: uppercase;}
 h2 {font-size: 40px; line-height: 50px; letter-spacing: 0.5px; margin-bottom: 17px;}
 h3 {font-size: 30px; line-height: 40px; letter-spacing: 0.5px; margin-bottom: 19px;}
@@ -39,7 +39,7 @@ ul > li:before {content: ""; position: absolute; top: 10px; left: -27px; width: 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 32px 0 37px 58px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 9px;}
-ol > li:before{counter-increment: section; content: counter(section, decimal) "."; top: 0; left: -32px; color: var(--light-blue); position: absolute; font-size: 21px; line-height: normal; font-weight: 600;font-family: 'Urbanist', sans-serif; }
+ol > li:before{counter-increment: section; content: counter(section, decimal) "."; top: 0; left: -32px; color: var(--light-blue); position: absolute; font-size: 21px; line-height: normal; font-weight: 600;font-family: 'Open Sans', sans-serif; }
 li > ol {margin: 25px 0 26px 25px;}
 img {-ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto;}
 figure {margin: 0;}
@@ -78,11 +78,11 @@ hr.blue{background-color: var(--light-blue); opacity: 1;}
 ::-moz-selection {background-color: #231f20; color: #ffffff;}
 
 /* Input fields */
-input[type="search"], input, select, textarea, body .frm_style_formidable-style.with_frm_style .frm_form_fields input, body .with_frm_style textarea{outline: 0; width: 100%; font-size: 16px; line-height: 24px; letter-spacing: 0.57px; background: var(--white); box-shadow: none; color: var(--text-color); padding: 11px 20px 13px; vertical-align: middle; font-family: 'Urbanist', sans-serif; font-weight: 500; height: auto; transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out; border: solid 1px #a6a6a6; border-radius: 0;}
+input[type="search"], input, select, textarea, body .frm_style_formidable-style.with_frm_style .frm_form_fields input, body .with_frm_style textarea{outline: 0; width: 100%; font-size: 16px; line-height: 24px; letter-spacing: 0.57px; background: var(--white); box-shadow: none; color: var(--text-color); padding: 11px 20px 13px; vertical-align: middle; font-family: 'Open Sans', sans-serif; font-weight: 500; height: auto; transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out; border: solid 1px #a6a6a6; border-radius: 0;}
 textarea, body .with_frm_style textarea{width: 100%; resize: none; height: 215px;}
 input:focus, textarea:focus, body .frm_style_formidable-style.with_frm_style .frm_form_fields input:focus{outline: 0; box-shadow: none; border-color: var(--text-color);}
 body .frm_style_formidable-style.with_frm_style .form-field input:not([type="file"]):focus, body .frm_style_formidable-style.with_frm_style .form-field textarea:focus{border-color: #a6a6a6; box-shadow: none; border-color: var(--text-color);}
-input[type="button"], input[type="reset"], input[type="submit"], button[type="submit"], .frm_style_formidable-style.with_frm_style .frm_form_fields .frm_submit button{display: inline-block; font-size: 16px; line-height: 25px; letter-spacing: 0.5px; padding: 13px 46px 14px 22px; margin: 0; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--blue-color); font-weight: bold; position: relative; transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; text-transform: capitalize; text-align: center; color: var(--white); font-family: 'Urbanist', sans-serif; }
+input[type="button"], input[type="reset"], input[type="submit"], button[type="submit"], .frm_style_formidable-style.with_frm_style .frm_form_fields .frm_submit button{display: inline-block; font-size: 16px; line-height: 25px; letter-spacing: 0.5px; padding: 13px 46px 14px 22px; margin: 0; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--blue-color); font-weight: bold; position: relative; transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; text-transform: capitalize; text-align: center; color: var(--white); font-family: 'Open Sans', sans-serif; }
 button[type="submit"]:focus,  button[type="submit"]:hover, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, .frm_style_formidable-style.with_frm_style .frm_form_fields .frm_submit button:hover{background-color: var(--black); color: var(--white);}
 input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active,  button[type="submit"]:active{outline: none;}
 button[type="submit"]::after{right: 18px; content: "\f061"; font-size: 16px; font-family: "Font Awesome 6 Pro"; font-weight: 400; transition: all 0.3s ease-in-out; position: absolute;}
@@ -96,10 +96,10 @@ button[type="submit"]:hover::after{right: 14px;}
 
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
-::-webkit-input-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif;}
-:-moz-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif; opacity: 1; }
-::-moz-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif; opacity: 1;}
-:-ms-input-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif; opacity: 1;}
+::-webkit-input-placeholder {color: var(--text-color-50); font-family: 'Open Sans', sans-serif;}
+:-moz-placeholder {color: var(--text-color-50); font-family: 'Open Sans', sans-serif; opacity: 1; }
+::-moz-placeholder {color: var(--text-color-50); font-family: 'Open Sans', sans-serif; opacity: 1;}
+:-ms-input-placeholder {color: var(--text-color-50); font-family: 'Open Sans', sans-serif; opacity: 1;}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video {margin-bottom: 7px; max-width: 100%; border-radius: 0;}
@@ -133,8 +133,9 @@ blockquote.alignright, img.alignleft {margin: 37px 37px 68px 0;}
 
 .pos-relative{position: relative;}
 
-body{font-family: 'Poppins', sans-serif; font-size: 16px;  line-height: 30px; overflow-x: hidden; overflow-y: scroll;}
+body{font-family: 'Open Sans', sans-serif; font-size: 16px;  line-height: 30px; overflow-x: hidden; overflow-y: scroll;}
 .fluid-container{width: 100vw; left: -50vw; margin-left: 50%;}
+.container{max-width: 1640px; margin: 0 auto;}
 
 
 /*-- media css starts here --*/

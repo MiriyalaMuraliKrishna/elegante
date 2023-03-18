@@ -8,8 +8,8 @@ a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--gray-color);}
 h1, h2, h3, h4, h5, h6 {clear: both; margin: 0 0 2px; color: var(--text-color); letter-spacing: 0; text-transform: none;  font-family: 'Open Sans', sans-serif; font-weight: bold;}
-h1 {font-size: 40px; line-height: 50px; letter-spacing: 0.5px; margin-bottom: 22px; text-transform: uppercase;}
-h2 {font-size: 40px; line-height: 50px; letter-spacing: 0.5px; margin-bottom: 17px;}
+h1 {font-size: 64px; line-height: 68px; font-weight: 800; margin-bottom: 35px; }
+h2:not(.sub-title) {font-size: 45px; line-height: 61px; font-weight: 800; margin-bottom: 24px; text-transform: none;}
 h3 {font-size: 30px; line-height: 40px; letter-spacing: 0.5px; margin-bottom: 19px;}
 h4 {font-size: 24px; line-height: 25px; margin-bottom: 19px;}
 h5 {font-size: 20px; line-height: 25px;}
@@ -54,7 +54,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {appeara
 button[disabled], input[disabled] {cursor: default;}
 input[type="checkbox"], input[type="radio"] {padding: 0;}
 input[type="search"] {appearance: textfield;}
-input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+input[type="search"]::-webkit-search-decoration {appearance: none;}
 button::-moz-focus-inner, input::-moz-focus-inner {border: 0; padding: 0;}
 textarea {overflow: auto; vertical-align: top;}
 
@@ -91,9 +91,10 @@ button[type="submit"]:hover::after{right: 14px;}
 .search-submit {display: none;}
 
 /* Buttons */
-.button{display: inline-block; font-size: 16px; font-weight: bold; line-height: normal; letter-spacing: 0.5px; padding: 11px 21px 11px 23px; vertical-align: middle; cursor: pointer; border: 3px solid #fff; border-radius: 34px; background-color: transparent; position: relative; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; text-transform: capitalize; text-align: center; color: #FFFFFF; }
+.button{display: inline-block; font-size: 16px; font-weight: bold; line-height: normal; letter-spacing: 0.5px; padding: 11px 21px 11px 23px; vertical-align: middle; cursor: pointer; border: 3px solid #fff; border-radius: 34px; background-color: var(--red-color); position: relative; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; text-transform: uppercase; text-align: center; color: #FFFFFF; }
 .button:hover, .button:focus {background-color: var(--text-color); color: var(--white);}
-.button.btn-transparent{ border-radius: 40px; border: solid 2px #101820; color: #101820; background-color: transparent;}
+.button.btn-transparent{min-width: 206px; padding: 14px 21px 14px; font-size: 14px; line-height: 19px; letter-spacing: 1.4px; border-radius: 40px; border: solid 2px #101820; color: #101820; background-color: transparent;}
+.button.btn-transparent:hover{background-color: var(--red-color); border-color: var(--red-color); color: var(--white);}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
 ::-webkit-input-placeholder {color: var(--text-color-50); font-family: 'Open Sans', sans-serif;}
@@ -129,27 +130,34 @@ blockquote.alignright, img.alignleft {margin: 37px 37px 68px 0;}
 .table{ display: table; width: 100%; height: 100%;}
 .table-cell{display: table-cell; vertical-align: middle;}
 .grid{display: grid; display: -moz-grid; display: -ms-grid; width: 100%;}
-/* 
+
 .background-bg{width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1;}
 .background-text{width: 100%; height: 100%; top: 0; left: 0; right: 0; position: absolute; z-index: 1;}
 figure.object-fit{width: 100%; height: 100%; display: block;}
 picture.object-fit{width: 100%; height: 100%; display: block;}
 .object-fit img{width: 100%; height: 100%; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%; }
 .object-img-fit img{width: 100%; height: auto; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%; }
-*/
-.pos-relative{position: relative;}
+.radius-img-20 img{border-radius: 20px;}
 
-body{font-family: 'Open Sans', sans-serif; font-size: 16px;  line-height: 30px; overflow-x: hidden; overflow-y: scroll;}
+.pos-relative{position: relative;}
+body{font-family: 'Open Sans', sans-serif; font-size: 18px;  line-height: 28px; overflow-x: hidden;}
 .fluid-container{width: 100vw; left: -50vw; margin-left: 50%;}
-.container{max-width: 1640px; margin: 0 auto;}
-.container-md{max-width: 1400px; margin: 0 auto;}
+h2.sub-title{font-size: 35px; line-height: 47px; letter-spacing: 3.5px; margin-bottom: 40px; text-transform: uppercase;}
+
 
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 768px){
-}
 @media only screen and (min-width: 1024px){
-} 
+    .container{max-width: 100%; padding: 0 70px; margin: 0 auto;}
+}
+@media only screen and (min-width: 1640px){
+    .container{max-width: 1920px; padding: 0 140px; margin: 0 auto;}
+    .container.md{max-width: 1400px; padding: 0;}
+    h1 {
+        font-size: 100px;
+        line-height: 100px;
+    }
+}
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){

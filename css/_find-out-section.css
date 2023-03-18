@@ -1,5 +1,11 @@
-.find-out-main{gap: 90px; margin-bottom: 275px;}
-.find-out-image{width: calc(100% - 682px);}
-.find-out-image img{border-radius: 20px;}
-.find-out-text{width: 592px;}
-.find-out-text p{font-size: 18px;}
+
+.find-out-text{font-size: 18px; line-height: 34px;}
+.find-out-text p:not(:last-child){margin-bottom: 29px;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .find-out-main{gap: 90px; padding-bottom: 275px;}
+    .find-out-image{width: calc(100% - 682px);}
+    .find-out-text{width: 592px;}
+    
+}

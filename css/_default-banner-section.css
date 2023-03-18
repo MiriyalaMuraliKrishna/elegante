@@ -1,6 +1,10 @@
-.default-banner-main{gap: 169px;}
-.default-banner-text{width: 408px; height: 336px; padding-left: 141px;}
-.default-banner-image{width: calc(100% - 718px)}
-.button{background-color: red; color: white; font-size: 16px; border-radius: 40px; }
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .default-banner-main{gap: 169px; margin-bottom: 140px;}
+    .default-banner-text{width: 408px;}
+    .default-banner-image{width: calc(100% - 718px)}
+}
 
 

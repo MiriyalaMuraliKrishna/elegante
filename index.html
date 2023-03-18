@@ -2,7 +2,7 @@
 <html lang="en-CA" prefix="og: https://ogp.me/ns#">
 <head>
 <meta charset="utf-8"/>
-<title>Elegante index page: index </title>
+<title>Elegante home page: Elegante</title>
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -51,13 +51,13 @@
             </div>
         </div>
     </header>
-    <section class="marque-section">
+    <section class="marque-section pos-relative">
         <div class="marque-main flex">
-            <span>GET 10% OFF YOUR FIRST ORDER</span>
-            <span>GET 10% OFF YOUR FIRST ORDER</span>
-            <span>GET 10% OFF YOUR FIRST ORDER</span>
-            <span>GET 10% OFF YOUR FIRST ORDER</span>          
-            <span>GET 10% OFF YOUR FIRST ORDER</span>
+            <div class="marque-text"><span>GET 10% OFF YOUR FIRST ORDER</span></div>
+            <div class="marque-text"><span>GET 10% OFF YOUR FIRST ORDER</span></div>
+            <div class="marque-text"><span>GET 10% OFF YOUR FIRST ORDER</span></div>
+            <div class="marque-text"><span>GET 10% OFF YOUR FIRST ORDER</span></div>
+            <div class="marque-text"><span>GET 10% OFF YOUR FIRST ORDER</span></div>
         </div>
     </section>
     <section class="default-banner-section">
@@ -77,11 +77,13 @@
     </section>
     <section class="trending-section">
         <div class="container">
-        <div class="trending-main">
-            <h3>Trending now</h3>
+        <div class="trending-main aligncenter">
+            <div class="trending-title">
+                <h2 class="sub-title">Trending now</h2>
+            </div>
             <div class="trending-row flex">
                 <div class="trending-list">
-                    <figure class="trending-image object-fit">
+                    <figure class="trending-image object-fit radius-img-20">
                         <img src="images/trending-image1@2x.jpg">
                     </figure>
                     <div class="trending-text">
@@ -90,7 +92,7 @@
                     </div>
                 </div>
                 <div class="trending-list">
-                    <figure class="trending-image object-fit">
+                    <figure class="trending-image object-fit radius-img-20">
                         <img src="images/trending-image2@2x.jpg">
                     </figure>
                     <div class="trending-text">
@@ -99,7 +101,7 @@
                     </div>
                 </div>
                  <div class="trending-list">
-                       <figure class="trending-image object-fit">
+                       <figure class="trending-image object-fit radius-img-20">
                            <img src="images/trending-image3@2x.jpg">
                        </figure>
                        <div class="trending-text">
@@ -110,60 +112,93 @@
             </div>
         </div>
     </section>
-    <section class="discover">
-        <div class="container-md">
+    <section class="discover-section pos-relative">
+        <div class="discover-bg"></div>
+        <div class="container md">
             <div class="discover-main">
-                <h3>Discover</h3>
-                <div class="discover-nav">
-                    <ul class="discover-nav flex flex-center">
-                        <li><a href="#">special offers</a></li>
-                        <li><a href="#">Trending</a></li>
-                        <li><a href="#">New in</a></li>
-                    </ul>
+                <div class="discover-title aligncenter">
+                    <h2 class="sub-title">Discover</h2>
                 </div>
+                <ul class="discover-nav flex flex-center">
+                    <li><a href="#" class="active">special offers</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">New in</a></li>
+                </ul>
                 <div class="discover-row flex">
                     <div class="discover-list">
-                        <figure class="discover-image object-fit">
-                            <img src="images/discover-image1@2x.jpg">
-                        </figure>
+                        <div class="discover-image">
+                            <figure class="discover-thumb object-fit radius-img-20">
+                                <img src="images/discover-image1@2x.jpg">
+                            </figure>
+                        </div>
                         <div class="discover-text">
-                            <p>HAIR CARE</p>
+                            <span class="discover-optional">HAIR CARE</span>
                             <p>Maui Shampoo</p>
-                            <p>₦ 29.99</p>
-                            
+                            <span class="number">₦ 29.99</span>
+                            <div class="rating">
+                                <span class="star star-1">★</span>
+                                <span class="star star-2">☆</span>
+                                <span class="star star-3">★</span>
+                                <span class="star star-4">☆</span>
+                                <span class="star star-5">★</span>
+                              </div>
                         </div>
                     </div>
                     <div class="discover-list">
-                        <figure class="discover-image object-fit">
-                            <img src="images/discover-image2@2x.jpg">
-                        </figure>
+                        <div class="discover-image">
+                            <figure class="discover-thumb object-fit radius-img-20">
+                                <img src="images/discover-image2@2x.jpg">
+                            </figure>
+                        </div>
                         <div class="discover-text">
-                            <p>SKIN & PERSONAL CARE</p>
-                            <p>Hair Care Set</p>
-                            <p>₦ 34.99</p>
-
+                            <span class="discover-optional">HAIR CARE</span>
+                            <p>Maui Shampoo</p>
+                            <span class="number">₦ 29.99</span>
+                            <div class="rating">
+                                <span class="star star-1">★</span>
+                                <span class="star star-2">☆</span>
+                                <span class="star star-3">★</span>
+                                <span class="star star-4">☆</span>
+                                <span class="star star-5">★</span>
+                              </div>
                         </div>
                     </div>
                     <div class="discover-list">
-                        <figure class="discover-image object-fit">
-                            <img src="images/discover-image3@2x.jpg">
-                        </figure>
+                        <div class="discover-image">
+                            <figure class="discover-thumb object-fit radius-img-20">
+                                <img src="images/discover-image3@2x.jpg">
+                            </figure>
+                        </div>
                         <div class="discover-text">
-                            <p>SKIN & PERSONAL CARE</p>
-                            <p>Hair Care Set</p>
-                            <p>₦ 34.99</p>
-                        
+                            <span class="discover-optional">HAIR CARE</span>
+                            <p>Maui Shampoo</p>
+                            <span class="number">₦ 29.99</span>
+                            <div class="rating">
+                                <span class="star star-1">★</span>
+                                <span class="star star-2">☆</span>
+                                <span class="star star-3">★</span>
+                                <span class="star star-4">☆</span>
+                                <span class="star star-5">★</span>
+                              </div>
                         </div>
                     </div>
                     <div class="discover-list">
-                        <figure class="discover-image object-fit">
-                            <img src="images/discover-image4@2x.jpg">
-                        </figure>
+                        <div class="discover-image">
+                            <figure class="discover-thumb object-fit radius-img-20">
+                                <img src="images/discover-image4@2x.jpg">
+                            </figure>
+                        </div>
                         <div class="discover-text">
-                            <p>MAKEUP</p>
-                            <p>Nude Makeup Set</p>
-                            <p>₦ 23.99s</p>
-                        
+                            <span class="discover-optional">HAIR CARE</span>
+                            <p>Maui Shampoo</p>
+                            <span class="number">₦ 29.99</span>
+                            <div class="rating">
+                                <span class="star star-1">★</span>
+                                <span class="star star-2">☆</span>
+                                <span class="star star-3">★</span>
+                                <span class="star star-4">☆</span>
+                                <span class="star star-5">★</span>
+                              </div>
                         </div>
                     </div>
                 </div>
@@ -174,21 +209,28 @@
         <div class="container">
             <div class="lorem-ipsum-main flex">
                 <div class="lorem-ipsum-list">
-                    <figure class="lorem-ipsum-image object-fit">
-                         <img src="images/lorem-ipsum-image1@2x.jpg">
-                    </figure>
-                    
-                    <h4>Lorem ipsum dolor sit amet, consetetur</h4>
-                    <p>Lorem ipsum dolor sit amet, consetetur</p>
-                    <a href="#" class="button btn-transparent">Shop now</a>
+                    <div class="lorem-ipsum-image">
+                        <figure class="lorem-ipsum-thumb object-fit radius-img-20">
+                             <img src="images/lorem-ipsum-image1@2x.jpg">
+                        </figure>
+                    </div>
+                    <div class="lorem-ipsum-text">
+                        <h4>Lorem ipsum dolor sit amet, consetetur</h4>
+                        <p>Lorem ipsum dolor sit amet, consetetur</p>
+                        <a href="#" class="button btn-transparent">Shop now</a>
+                    </div>
                 </div>
                 <div class="lorem-ipsum-list">
-                    <figure class="lorem-ipsum-image object-fit">
-                         <img src="images/lorem-ipsum-image2@2x.jpg">
-                    </figure>
-                    <h4>Lorem ipsum dolor sit amet, consetetur</h4>
-                    <p>Lorem ipsum dolor sit amet, consetetur</p>
-                    <a href="#" class="button btn-transparent">Shop now</a>
+                    <div class="lorem-ipsum-image">
+                        <figure class="lorem-ipsum-thumb object-fit radius-img-20">
+                            <img src="images/lorem-ipsum-image2@2x.jpg">
+                        </figure>
+                    </div>
+                    <div class="lorem-ipsum-text">
+                        <h4>Lorem ipsum dolor sit amet, consetetur</h4>
+                        <p>Lorem ipsum dolor sit amet, consetetur</p>
+                        <a href="#" class="button btn-transparent">Shop now</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -196,143 +238,216 @@
     <section class="category-section">
         <div class="container">
             <div class="category-main">
-                <h3>Shop by category</h3>
+                <h2 class="sub-title">Shop by category</h2>
                 <div class="category-row flex">
                     <div class="category-list">
-                        <figure class="category-image object-fit">
-                            <img src="images/category-image1@2x.jpg">
-                        </figure>
-                        <h5>Makeup</h5>
+                        <div class="category-image">
+                            <figure class="category-thumb object-fit">
+                                <img src="images/category-image1@2x.jpg">
+                            </figure>
+                        </div>
+                        <div class="category-text">
+                            <h5>Makeup</h5>
+                        </div>
                     </div>
                     <div class="category-list">
-                        <figure class="category-image object-fit">
-                            <img src="images/category-image2@2x.jpg">
-                        </figure>
-                        <h5>Fragrance</h5>
+                        <div class="category-image">
+                            <figure class="category-thumb object-fit">
+                                <img src="images/category-image2@2x.jpg">
+                            </figure>
+                        </div>
+                        <div class="category-text">
+                            <h5>Fragrance</h5>
+                        </div>
                     </div>
                     <div class="category-list">
-                        <figure class="category-image object-fit">
-                            <img src="images/category-image3@2x.jpg">
-                        </figure>
-                        <h5>Skin & Personal Care</h5>
+                        <div class="category-image">
+                            <figure class="category-thumb object-fit">
+                                <img src="images/category-image3@2x.jpg">
+                            </figure>
+                        </div>
+                        <div class="category-text">
+                            <h5>Skin & Personal Care</h5>
+                        </div>
                     </div>
                     <div class="category-list">
-                        <figure class="category-image object-fit">
-                            <img src="images/category-image4@2x.jpg">
-                        </figure>
-                        <h5>Fashion & Apparel</h5>
+                        <div class="category-image">
+                            <figure class="category-thumb object-fit">
+                                <img src="images/category-image4@2x.jpg">
+                            </figure>
+                        </div>
+                        <div class="category-text">
+                            <h5>Fashion & Apparel</h5>
+                        </div>
                     </div>
                     <div class="category-list">
-                        <figure class="category-image object-fit">
-                            <img src="images/category-image5@2x.jpg">
-                        </figure>
-                        <h5>Tools & Accessories</h5>
+                        <div class="category-image">
+                            <figure class="category-thumb object-fit">
+                                <img src="images/category-image5@2x.jpg">
+                            </figure>
+                        </div>
+                        <div class="category-text">
+                            <h5>Tools & Accessories</h5>
+                        </div>
                     </div>
-                    <div class="category-list">
-                        <figure class="category-image object-fit">
-                            <img src="images/category-image6@2x.jpg">
-                        </figure>
-                        <h5>Elegante Collection</h5>
-                    </div>
+                    <!-- <div class="category-list">
+                        <div class="category-image">
+                            <figure class="category-thumb object-fit">
+                                <img src="images/category-image6@2x.jpg">
+                            </figure>
+                        </div>
+                        <div class="category-text">
+                            <h5>Elegante Collection</h5>
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </div>
-
     </section>
     <section class="product-section">
         <div class="container">
             <div class="product-row flex">
                 <div class="product-list">
-                    <figure class="product-image object-fit">
-                        <img src="images/product-image1@2x.jpg">
-                    </figure>
+                    <div class="product-image">
+                        <figure class="product-thumb object-fit radius-img-20">
+                            <img src="images/product-image1@2x.jpg">
+                        </figure>
+                    </div>
                     <div class="product-text">
-                        <h4>Lorem ipsum dolor sit amet, consetetur</h4>
+                        <h3>Lorem ipsum dolor sit amet, consetetur</h3>
                         <p>Lorem ipsum dolor sit amet, consetetur</p>
                         <a href="#" class="button btn-transparent">Shop now</a>
                     </div>
                 </div>
                 <div class="product-list">
-                    <figure class="product-image object-fit">
-                        <img src="images/product-image2@2x.jpg">
-                    </figure>
+                    <div class="product-image">
+                        <figure class="product-thumb object-fit radius-img-20">
+                            <img src="images/product-image2@2x.jpg">
+                        </figure>
+                    </div>
                     <div class="product-text">
-                        <h4>Lorem ipsum dolor sit amet, consetetur</h4>
+                        <h3>Lorem ipsum dolor sit amet, consetetur</h3>
                         <p>Lorem ipsum dolor sit amet, consetetur</p>
                         <a href="#" class="button btn-transparent">Shop now</a>
                     </div>
                 </div>
                 <div class="product-list">
-                    <figure class="product-image object-fit">
-                        <img src="images/product-image3@2x.jpg">
-                    </figure>
+                    <div class="product-image">
+                        <figure class="product-thumb object-fit radius-img-20">
+                            <img src="images/product-image3@2x.jpg">
+                        </figure>
+                    </div>
                     <div class="product-text">
-                        <h4>Lorem ipsum dolor sit amet, consetetur</h4>
+                        <h3>Lorem ipsum dolor sit amet, consetetur</h3>
                         <p>Lorem ipsum dolor sit amet, consetetur</p>
                         <a href="#" class="button btn-transparent">Shop now</a>
                     </div>
                 </div>
             </div>
     </section>
-    <section class="offers-section">
-        <div class="container-md">
-            <div class="offers-main">
-                <h3>Offers of the week</h3>
-                <div class="offers-row flex">
-                    <div class="offers-list">
-                        <figure class="offers-image object-fit">
-                            <img src="images/offers-image1@2x.jpg">
-                        </figure>
-                        <div class="offers-text">
-                            <p>HAIR CARE</p>
+    <section class="discover-section pos-relative">
+        <div class="discover-bg"></div>
+        <div class="container md">
+            <div class="discover-main">
+                <div class="discover-title aligncenter">
+                    <h2>Discover</h2>
+                </div>
+                <ul class="discover-nav flex flex-center">
+                    <li><a href="#" class="active">special offers</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">New in</a></li>
+                </ul>
+                <div class="discover-row flex">
+                    <div class="discover-list">
+                        <div class="discover-image">
+                            <figure class="discover-thumb object-fit radius-img-20">
+                                <img src="images/discover-image1@2x.jpg">
+                            </figure>
+                        </div>
+                        <div class="discover-text">
+                            <span class="discover-optional">HAIR CARE</span>
                             <p>Maui Shampoo</p>
-                            <p>₦ 29.99</p>
-                         </div>
+                            <span class="number">₦ 29.99</span>
+                            <div class="rating">
+                                <span class="star star-1">★</span>
+                                <span class="star star-2">☆</span>
+                                <span class="star star-3">★</span>
+                                <span class="star star-4">☆</span>
+                                <span class="star star-5">★</span>
+                              </div>
+                        </div>
                     </div>
-                    <div class="offers-list">
-                        <figure class="offers-image object-fit">
-                            <img src="images/offers-image2@2x.jpg">
-                        </figure>
-                        <div class="offers-text">
-                            <p>SKIN & PERSONAL CARE</p>
-                            <p>Hair Care Set</p>
-                            <p>₦ 34.99</p>
-                         </div>
+                    <div class="discover-list">
+                        <div class="discover-image">
+                            <figure class="discover-thumb object-fit radius-img-20">
+                                <img src="images/discover-image2@2x.jpg">
+                            </figure>
+                        </div>
+                        <div class="discover-text">
+                            <span class="discover-optional">HAIR CARE</span>
+                            <p>Maui Shampoo</p>
+                            <span class="number">₦ 29.99</span>
+                            <div class="rating">
+                                <span class="star star-1">★</span>
+                                <span class="star star-2">☆</span>
+                                <span class="star star-3">★</span>
+                                <span class="star star-4">☆</span>
+                                <span class="star star-5">★</span>
+                              </div>
+                        </div>
                     </div>
-                    <div class="offers-list">
-                        <figure class="offers-image object-fit">
-                            <img src="images/offers-image3@2x.jpg">
-                        </figure>
-                        <div class="offers-text">
-                            <p>SKIN & PERSONAL CARE</p>
-                            <p>YSL Nail Varnishes</p>
-                            <p>₦ 89.99</p>
-                         </div>
+                    <div class="discover-list">
+                        <div class="discover-image">
+                            <figure class="discover-thumb object-fit radius-img-20">
+                                <img src="images/discover-image3@2x.jpg">
+                            </figure>
+                        </div>
+                        <div class="discover-text">
+                            <span class="discover-optional">HAIR CARE</span>
+                            <p>Maui Shampoo</p>
+                            <span class="number">₦ 29.99</span>
+                            <div class="rating">
+                                <span class="star star-1">★</span>
+                                <span class="star star-2">☆</span>
+                                <span class="star star-3">★</span>
+                                <span class="star star-4">☆</span>
+                                <span class="star star-5">★</span>
+                              </div>
+                        </div>
                     </div>
-                    <div class="offers-list">
-                        <figure class="offers-image object-fit">
-                            <img src="images/offers-image4@2x.jpg">
-                        </figure>
-                        <div class="offers-text">
-                            <p>MAKEUP</p>
-                            <p>Nude Makeup Set</p>
-                            <p>₦ 23.99</p>
-                         </div>
+                    <div class="discover-list">
+                        <div class="discover-image">
+                            <figure class="discover-thumb object-fit radius-img-20">
+                                <img src="images/discover-image4@2x.jpg">
+                            </figure>
+                        </div>
+                        <div class="discover-text">
+                            <span class="discover-optional">HAIR CARE</span>
+                            <p>Maui Shampoo</p>
+                            <span class="number">₦ 29.99</span>
+                            <div class="rating">
+                                <span class="star star-1">★</span>
+                                <span class="star star-2">☆</span>
+                                <span class="star star-3">★</span>
+                                <span class="star star-4">☆</span>
+                                <span class="star star-5">★</span>
+                              </div>
+                        </div>
                     </div>
                 </div>
-           </div>
+            </div>
         </div>
     </section>
     <section class="find-out-section">
         <div class="container">
-            <div class="find-out-main flex">
-                <div class="find-out-text flex flex-vcenter">
+            <div class="find-out-main flex flex-vcenter">
+                <div class="find-out-text flex">
                     <h2>Lorem ipsum dolor sit<br> amet, consetetur</h2>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam<br> nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam<br> erat, sed diam voluptua. At vero eos et accusam et justo duo dolores<br> et ea rebum. Stet clita kasd gubergren.</p>
                     <a href="#" class="button btn-transparent">Find out more</a>
                 </div>
                 <div class="find-out-image">
-                    <figure class="find-out-thumb object-fit">
+                    <figure class="find-out-thumb object-fit radius-img-20">
                         <img src="images/find-out-image@2x.jpg">
                     </figure>
                 </div>

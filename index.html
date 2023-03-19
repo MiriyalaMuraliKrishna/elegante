@@ -13,43 +13,57 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
 <meta name="keywords" content="HTML, CSS, XML, PHP, JavaScript, jQuery"/>
-<link rel="stylesheet" href="https://kit.fontawesome.com/6e1f84394a.css" crossorigin="anonymous">
+<link rel="stylesheet" href="css/font-awesome.css" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css" media="all"/>
 </head>
 <body>
 <header class="main-header">
-    <div class="top-navigation">
-        <div class="container">
-            <ul class="top-nav flex">
-                <li><a href="#">The View @ Elegante</a></li>
-                <li><a href="#">ElegantÉ Mall</a></li>
-                <li><a href="#">Salon</a></li>
-                <li><a href="#">Conference & events</a></li>
-                <li><a href="#">Training</a></li>
-                <li><a href="#">Spa</a></li>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Restaurant</a></li>
-                <li><a href="#">Arcade</a></li>
-            </ul>
+<div class="top-navigation">
+    <div class="container">
+        <ul class="top-nav flex">
+            <li><a href="#">The View @ Elegante</a></li>
+            <li><a href="#">ElegantÉ Mall</a></li>
+            <li><a href="#">Salon</a></li>
+            <li><a href="#">Conference & events</a></li>
+            <li><a href="#">Training</a></li>
+            <li><a href="#">Spa</a></li>
+            <li><a href="#">Studio</a></li>
+            <li><a href="#">Restaurant</a></li>
+            <li><a href="#">Arcade</a></li>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="header flex flex-vcenter">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.svg"></a>
+        </div>
+        <form id="searchform" class="header_srch flex pos-relative" method="get" action="/">
+            <input type="search" name="s" id="search" placeholder="Search">
+            <div class="header_srch_btn flex flex-center">
+                <input type="submit" value="search">
+                <span class="fa-regular fa-magnifying-glass"></span>
+            </div>
+        </form>
+        <div class="header-cart flex">
+            <div class="user_ac flex">
+                <a class="flex flex-vcenter user_list" href="#"><span class="fa-regular fa-user"></span>My Account </a>
+            </div>
+            <div class="user_basket flex">
+                <a class="flex flex-vcenter user_list" href="#"><span class="fa-regular fa-basket-shopping-simple"></span>Basket </a>
+            </div>
         </div>
     </div>
-        <div class="header">
-            
-        </div>
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
-        </div>
-    </div>
+    <ul class="main_menu flex flex-center">
+        <li><a href="">HAir</a></li>
+        <li><a href="">Hair Care</a></li>
+        <li><a href="">Skin & personal Care</a></li>
+        <li><a href="">Makeup</a></li>
+        <li><a href="">Fragrance</a></li>
+        <li><a href="">Tools & accessories</a></li>
+        <li><a href="">Fashion & apparel</a></li>
+    </ul>
+</div>
 </header>
 <section class="marque-section pos-relative">
     <div class="marque-main flex">
@@ -377,7 +391,7 @@
     <div class="container md">
         <div class="discover-main">
             <div class="discover-title aligncenter">
-                <h2>Discover</h2>
+                <h2 class="sub-title">Offers of the week</h2>
             </div>
             <ul class="discover-nav flex flex-center">
                 <li><a href="#" class="active">special offers</a></li>
@@ -427,6 +441,25 @@
                     <div class="discover-image">
                         <figure class="discover-thumb object-fit radius-img-20">
                             <img src="images/discover-image3@2x.jpg">
+                        </figure>
+                    </div>
+                    <div class="discover-text">
+                        <span class="discover-optional">HAIR CARE</span>
+                        <p>Maui Shampoo</p>
+                        <span class="number">₦ 29.99</span>
+                        <div class="rating">
+                            <span class="star star-1">★</span>
+                            <span class="star star-2">☆</span>
+                            <span class="star star-3">★</span>
+                            <span class="star star-4">☆</span>
+                            <span class="star star-5">★</span>
+                            </div>
+                    </div>
+                </div>
+                <div class="discover-list">
+                    <div class="discover-image">
+                        <figure class="discover-thumb object-fit radius-img-20">
+                            <img src="images/discover-image4@2x.jpg">
                         </figure>
                     </div>
                     <div class="discover-text">
@@ -589,26 +622,28 @@
 </section>
 
 <footer class="main-footer">
-    <div class="container">
-        <div class="footer flex">
-            <div class="footer-left">
-                <div class="footer-logo">
-                    <a href="index.html"><img src="images/logo.svg"></a>
-                </div>
-                <ul class="social-icons flex">
-                    <li><a href="#">twitter</a></li>
-                    <li><a href="#">facebook</a></li>
-                    <li><a href="#">instagram</a></li>
-                </ul>
-                <div class="paypal">
-                    <img src="images/paypal-image@2x.png">
-                </div>
-                <p>&copy;Elegante 2022</p>
+<div class="container">
+    <div class="footer flex">
+        <div class="footer-left">
+            <div class="footer-logo">
+                <a href="index.html"><img src="images/logo.svg"></a>
+            </div>
+            <ul class="social-icons flex">
+                <li><a href="#" target="_blank"><span class="fa-brands fa-linkedin-in"></span></a></li>
+                <li><a href="#" target="_blank"><span class="fa-brands fa-facebook-f"></span></a></li>
+                <li><a href="#" target="_blank"><span class="fa-brands fa-twitter"></span></a></li>
+            </ul>
+            <div class="paypal">
+                <img src="images/paypal-image@2x.png">
+            </div>
+            <div class="copyrights">
+                <p>&copy; Elegante 2022</p>
                 <p>Site Designed & Developed by CDA</p>
             </div>
-            <div class="footer-middle flex">
-                <ul class="footer-links">
-                    <li><a href="#">Shop</a>
+        </div>
+        <div class="footer-middle">
+            <ul class="footer-links flex">
+                <li><a href="#">Shop</a>
                     <ul class="sub-menu">
                         <li><a href="#">Hair</a></li>
                         <li><a href="#">Hair Care</a></li>
@@ -618,10 +653,8 @@
                         <li><a href="#">Tools & accessories</a></li>
                         <li><a href="#">Fashion & apparel</a></li>
                     </ul> 
-                    </li>
-                </ul>
-                <ul class="footer-links">
-                    <li><a href="#">Useful Links</a>
+                </li>
+                <li><a href="#">Useful Links</a>
                     <ul class="sub-menu">
                         <li><a href="#">Salon</a></li>
                         <li><a href="#">Spa</a></li>
@@ -631,10 +664,8 @@
                         <li><a href="#">Restaurant</a></li>
                         <li><a href="#">Arcade</a></li> 
                     </ul>
-                    </li>
-                </ul>
-                <ul class="footer-links">
-                    <li><a href="#">Customer Services</a>
+                </li>
+                <li><a href="#">Customer Services</a>
                     <ul class="sub-menu">
                         <li><a href="#">My Account</a></li>
                         <li><a href="#">Contact Us</a></li>
@@ -644,25 +675,31 @@
                         <li><a href="#">Legal Policies</a></li>
                         <li><a href="#">News</a></li> 
                     </ul>
-                    </li>
-                </ul> 
-            </div>
-            <div class="footer-right">
-                <h5>Subscribe to our newsletter</h5>
-                <form class="Subscribe-form">
+                </li>
+            </ul> 
+        </div>
+        <div class="footer-right">
+            <h5>Subscribe to our newsletter</h5>
+            <form class="subscribe-form">
+                <div class="subscribe-field">
                     <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Email">
-                    <label ></label><input type="checkbox">I agree to all marketing communications </label>
+                </div>
+                <div class="subscribe-field">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="subscribe-field">
+                    <label>
+                        <input type="checkbox">I agree to all marketing communications
+                    </label>
+                </div>
+                <div class="subscribe_btn">
                     <button type="submit">Submit</button>
-                </form>
-            </div>
+                </div>
+            </form>
         </div>
     </div>
-<<<<<<< HEAD
+</div>
 </footer>
-=======
-
->>>>>>> a0049f905ebfbca7c05642fcfb99b6d7d314bfda
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>

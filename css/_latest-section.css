@@ -1,10 +1,22 @@
-.latest-row{gap: 95px; margin-bottom: 140px;}
-.latest-text{margin-top: 126px; width: 325px;}
-.latest-text h3{font-size: 35px; margin-bottom: 19px;}
-.latest-text p{font-size: 18px; margin-bottom: 34px;}
-.title-row{width: calc(100% - 420px); gap: 39px;}
-.title-list{width: calc(33.33% - 39px);}
-.title-image{margin-bottom: 20px;}
-.title-image img{border-radius: 20px;}
-.title-list .number{font-size: 18px; color: rgba(16, 24, 32, 0.3);}
-.title-list h5{font-size: 24px; color: #101820;}
+
+.latest-text{font-size: 18px; line-height: 34px;}
+.latest-text h2{margin-bottom: 19px;}
+.latest-text .button{margin-top: 11px;}
+.latest-row-image{margin-bottom: 20px;}
+.latest-row-image img{border-radius: 20px;}
+.latest-row-list .number{font-size: 18px; color: rgba(16, 24, 32, 0.3);}
+.latest-row-list h5{font-size: 24px; color: #101820;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .latest-wrap{padding-bottom: 140px;}
+    .latest-main{gap: 95px;}
+    .latest-text{width: 325px;}
+    .latest-view-desc{margin-bottom: 27px; display: -webkit-box; -webkit-line-clamp: 3; overflow: hidden;}
+    .latest-view-btn{margin-left: 120px;}
+    .latest-row-main{width: calc(100% - 420px); gap: 39px;}
+    .latest-row-list{width: calc(33.33% - 26px);}
+    .latest-row-slider .latest-row-list{margin-right: 39px; width: 320px;}
+    .latest-row-slider .slick-arrow { top: calc(50% + 103px); left: -359px; right: auto; }
+    .latest-row-slider .slick-arrow.slick-prev { left: -418px; }
+}

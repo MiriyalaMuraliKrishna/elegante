@@ -1,9 +1,20 @@
+.product-main{padding: 0 0 140px;}
 .product-image{margin-bottom: 27px;}
 .product-text h4{font-size: 28px; margin-bottom: 11px;}
 .product-text p{font-size: 18px; margin-bottom: 30px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .product-row{gap: 70px; margin-bottom: 140px;}
+    .product-row{gap: 70px;}
     .product-list{width: calc(33.33% - 47px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .product-main{padding: 0 0 70px;}
+    .product-row{gap: 30px;}
+    .product-list{width: calc(33.33% - 20px);}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .product-main{padding: 0 0 70px;}
+    .product-row{display: block;}
+    .product-list:not(:last-child){margin-bottom: 50px;}
 }

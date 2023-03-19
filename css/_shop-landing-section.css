@@ -1,0 +1,19 @@
+
+.shop-landing-image{margin-bottom: 40px;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .shop-landing-main{gap: 72px; padding: 0 0 148px;}
+    .shop-landing-list{flex: 0 0 calc(50% - 36px);}    
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .shop-landing-main{display: block; padding: 0 0 58px;}
+    .shop-landing-list{width: 100%; gap: 30px; margin-bottom: 30px; display: flex; flex-wrap: wrap;}
+    .shop-landing-image{flex: 1;}
+    .shop-landing-text { flex: 1; }
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .shop-landing-main{display: block; padding: 0 0 78px;}
+    .shop-landing-list{margin-bottom: 50px;}
+    .shop-landing-list:last-child{margin-bottom: 0;}
+}

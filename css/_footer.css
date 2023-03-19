@@ -1,0 +1,13 @@
+.footer{gap: 57px;}
+.footer-left{width: 227px;}
+.footer-logo{margin-bottom: 29px;}
+.social-icons{margin-bottom: 45px;}
+.paypal{margin-bottom: 30px;}
+.footer-right{width: 446px;}
+.footer-middle{width: calc(100% - 790px); gap: 42px;}
+ul.footer-links > li > a{font-weight: bold; font-size: 18px; margin-bottom: 25px;}
+ul.footer-links ul{margin: 0;}
+ul.footer-links ul li a{font-size: 16px;}
+ul.footer-links ul li{margin-bottom: 16px;}
+.footer h5{font-size: 18px; font-weight: bold; margin-bottom: 21px;}
+.footer .subscribe-form{border-radius: 28px;}
